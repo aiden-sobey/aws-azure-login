@@ -644,6 +644,7 @@ export const login = {
         : [];
 
       browser = await puppeteer.launch({
+        executablePath: '/Applications/Chromium.app/Contents/MacOS/Chromium',
         headless,
         args,
         ignoreDefaultArgs,
